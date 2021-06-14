@@ -1,0 +1,32 @@
+body {
+  display: grid;
+  height: 100vh;
+  grid-template: auto 1fr auto/auto 1fr auto;
+}
+
+header {
+  padding: 2rem;
+  grid-column: 1/4;
+}
+
+main {
+  grid-column: 2/3;
+}
+
+.right-sidebar {
+  grid-column: 3/4;
+}
+
+footer {
+  padding: 2rem;
+  text-align: center;
+  grid-column: 1/4;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+}
+
+.right-sidebar {
+  padding: 1rem;
+}
